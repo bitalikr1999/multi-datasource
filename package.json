@@ -1,0 +1,46 @@
+{
+  "name": "@bitalikrty/multi-dataloader",
+  "version": "1.0.0",
+  "description": "For dynamic creating dataloaders ",
+  "scripts": {
+    "test": "jest --coverage",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": "Vitalik",
+  "license": "ISC",
+  "dependencies": {
+    "dataloader": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^23.6.0",
+    "jest-config": "^23.6.0",
+    "ts-jest": "^23.10.2",
+    "rimraf": "^2.6.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "collectCoverageFrom": [
+      "src/*.{js,ts}"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2015",
+      "declaration": true,
+      "outDir": "./dist",
+      "esModuleInterop":true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": ["es2015"],
+        "rootDir": "./",
+        "resolveJsonModule": true,
+
+    },
+    "include": [
+      "src/**/*"
+    ]
+}
