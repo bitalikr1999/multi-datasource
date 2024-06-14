@@ -1,6 +1,6 @@
 {
   "name": "@bitalikrty/multi-dataloader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "For dynamic creating dataloaders ",
   "scripts": {
     "test": "jest --coverage",
@@ -13,6 +13,7 @@
     "/dist"
   ],
   "author": "Vitalik",
+  "repository": "https://github.com/bitalikr1999/multi-datasource",
   "license": "ISC",
   "dependencies": {
     "dataloader": "^2.2.2"
